@@ -3,8 +3,8 @@
 https://getcomposer.org/doc/03-cli.md#init
 
 Everything Composer does it based on a `composer.json` file sitting in the root 
-of your project. You can create this file yourself if you want, but `init` 
-command cab get you started. It will walk you through creating basic parts of the 
+of your project. You can create this file yourself if you want, but the `init` 
+command can get you started. It will walk you through creating basic parts of the 
 file, like the description and initial requirements.
 
 ```$xslt
@@ -42,8 +42,8 @@ The author isn't required, but helpful. It provides contact information.
 Minimum Stability []: dev
 ```
 
-Minimum stability dictates what versions of packages it downloads are acceptable. 
-Setting to `dev` means it is ok to download developments versions of packages. 
+Minimum stability dictates what versions of packages you consider acceptable. 
+Setting to `dev` means it is ok to download development versions of packages. 
 Whether a version is considered dev, alpha, stable, etc, is dictated by the package 
 Composer retrieves, not you.
 
