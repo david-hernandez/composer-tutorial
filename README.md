@@ -1,7 +1,8 @@
 # Composer Tutorial
 A walk through of various Composer tasks.
 
-[Composer](//getcomposer.org/) is a dependency manager for PHP.
+[Composer](//getcomposer.org/) is a dependency manager for PHP. It downloads
+public PHP packages (projects, libraries, etc) from Packagist.org.
 
 Each step in this tutorial goes over basic Composer usage. The 
 `composer.json` files in each directory should be usable, and each directory 
@@ -28,3 +29,17 @@ It is important to note that the PHP version you use can matter. Composer uses
 whichever version your command line uses. Run `php -v` to see which version 
 you have. And, be consistent with your project. If your application and web 
 server will use PHP 7, upgrade your command line to use 7, as well.
+
+## Using the `composer` Command
+
+In this tutorial, all commands begin with the `composer` command. If this does 
+not work for you, you many have to manually setup an alias or move Composer's 
+`.phar` file. Composer's installation instructions, linked above, walk you 
+through that process.
+
+## Terminology
+
+There are two terms that cause some confusion and sometimes are used 
+interchangeably - **package** and **project**. In this guide, **package** 
+refers to anything Composer downloads. A PHP library, project, etc. **Project** 
+refers to the project you are building.
