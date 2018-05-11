@@ -17,3 +17,14 @@ most of what is explained is specific to Composer, not Drupal, so the
 information should still be relevant to any PHP project. And since the Drupal 8
 use-case is more complex than simple "Hello, World!" functionality, it shows
 some of Composer's possibilities.
+
+## Before Starting
+You need to have Composer installed. This will vary based on operating system.
+See the Composer docs for instructions.
+
+https://getcomposer.org/doc/00-intro.md
+
+It is important to note that the PHP version you use can matter. Composer uses 
+whichever version your command line uses. Run `php -v` to see which version 
+you have. And, be consistent with your project. If your application and web 
+server will use PHP 7, upgrade your command line to use 7, as well.
