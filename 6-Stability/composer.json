@@ -1,0 +1,19 @@
+{
+    "name": "david-hernandez/init",
+    "description": "Using the init command to create a new project.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "David Hernandez",
+            "email": "david@example.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "drupal/drupal": "~8.5.3"
+    },
+    "require-dev": {
+        "drupal/console": "^1.0.0"
+    }
+}
