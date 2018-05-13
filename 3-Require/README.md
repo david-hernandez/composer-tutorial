@@ -1,5 +1,7 @@
 # Requiring Dependencies
 
+https://getcomposer.org/doc/03-cli.md#require
+
 In order for composer to retrieve packages needed for your project, you have 
 to declare them as dependencies. Don't think of the packages as something Composer 
 installs. Remember that everything Composer does is about building and deploying 

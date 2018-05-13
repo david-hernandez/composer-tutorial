@@ -1,5 +1,7 @@
 # Managing Conflicts
 
+https://getcomposer.org/doc/04-schema.md#conflict
+
 You may find yourself running into a conflict or two. In general, Composer will manage versions based 
 on what you provide in the `composer.json` file and what your dependencies provide in their `composer.json` files. 
 That is why specifying ranges is better than exact versions; especially, when more than one of your dependencies 

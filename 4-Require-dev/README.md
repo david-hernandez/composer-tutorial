@@ -1,5 +1,7 @@
 # Requiring Development Dependencies
 
+https://getcomposer.org/doc/04-schema.md#require-dev
+
 Sometimes there are things you want to use in your project, but only when developing. 
 Testing frameworks, debugging tools, etc. Composer has a section for this called `require-dev`.
 
