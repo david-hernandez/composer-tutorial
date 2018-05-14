@@ -8,7 +8,7 @@ Each step in this tutorial goes over basic Composer usage. The
 `composer.json` files in each directory should be usable, and each directory 
 will have a README file explaining the concepts and commands for that step.
 
-If you find any mistakes, please open an issue for create a pull request. Don't 
+If you find any mistakes, please open an issue or create a pull request. Don't 
 assume I know what I'm doing.&trade;
 
 ## Background
