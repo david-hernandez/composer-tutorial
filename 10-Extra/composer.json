@@ -1,0 +1,42 @@
+{
+    "name": "david-hernandez/init",
+    "description": "Using the init command to create a new project.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "David Hernandez",
+            "email": "david@example.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "drupal/core": "~8.5.0",
+        "drupal-composer/drupal-scaffold": "^2.4",
+    },
+    "require-dev": {
+        "drupal/console": "^1.0.0"
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "scripts": {
+        "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
+    },
+    "extra": {
+        "installer-paths": {
+            "docroot/core": ["type:drupal-core"],
+            "docroot/libraries/{$name}": ["type:drupal-library"],
+            "docroot/modules/contrib/{$name}": ["type:drupal-module"],
+            "docroot/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "docroot/themes/contrib/{$name}": ["type:drupal-theme"],
+            "drush/contrib/{$name}": ["type:drupal-drush"]
+        }
+    }
+}
