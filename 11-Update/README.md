@@ -51,7 +51,7 @@ Generating autoload files
 
 ```
 
-Verfiy in the lock file.
+Verfiy in the lock file. (At the time of this writing, 8.5.3 was the latest version of Drupal 8.5.)
 
 ```
 "name": "drupal/core",
