@@ -40,7 +40,7 @@ packagist.org. We can add this to our json file with a new `repositories` sectio
 
 _This façade was specifically setup for working with Drupal 8, because that is the first 
 version of Drupal to start using Composer, hence the `/8` in the url. There is now a `/7` 
-url for Drupal 7 based projects. Drupal modules also have a different version scheme than 
+url for Drupal 7 based modules. Drupal modules also have a different version scheme than 
 Composer expects, so there is some translation going on._
 
 Now, when using the `require` command let's see what happens.
