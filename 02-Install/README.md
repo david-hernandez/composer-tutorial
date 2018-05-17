@@ -39,7 +39,7 @@ Composer will read the json file and get to work. Even with no packages
 required in the json file it still performs certain setup tasks.
 
 In the example above, Composer is downloading lists of providers. It doesn't 
-have to do this every time, so you will may not see it again after you run 
+have to do this every time, so you may not see it again after you run 
 it the first time.
 
 ```$xslt
