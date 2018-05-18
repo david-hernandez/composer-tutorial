@@ -2,7 +2,7 @@
 
 https://getcomposer.org/doc/04-schema.md#extra
 
-Composer supports adding an `extra` section for supplying arbitrary information scrips might need. We'll 
+Composer supports adding an `extra` section for supplying arbitrary information scripts might need. We'll 
 use this to supply information that the Drupal scaffolder will use.
 
 When we first setup a project, one of the questions asked us for a `type`. The answer we gave was `project`, since 
